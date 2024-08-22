@@ -55,6 +55,8 @@ It should work on both Win7 and Win10.
 
 ## Refs
 
+- [leafOfTree/WindowTabs](https://github.com/leafOfTree/WindowTabs)
+
 - [mauricef/WindowTabs](https://github.com/mauricef/WindowTabs) the original repository
 
 - [redgis/WindowTabs](https://github.com/redgis/WindowTabs)
