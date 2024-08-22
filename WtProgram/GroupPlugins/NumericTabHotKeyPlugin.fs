@@ -22,7 +22,7 @@ type NumericTabHotKeyPlugin() as this =
 
         let vkCode = data.vkCode
         keyDown.iter <| fun(keyDown) ->
-            if Win32Helper.IsKeyPressed(VirtualKeyCodes.VK_CONTROL) then
+            if Win32Helper.IsKeyPressed(VirtualKeyCodes.VK_RMENU) then
                 this.vkToTabIndex(vkCode).iter <| fun(index) ->
                     this.wtGroup.activateIndex(index, true)
 
